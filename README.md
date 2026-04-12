@@ -1,2 +1,2 @@
 # Java-Basics
-This repo has java basic codes
+1) Print Hello Code
