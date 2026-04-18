@@ -9,10 +9,12 @@ public class firstoccurence {
         while(start<=end){
             int mid = (start+end)/2;
             if(arr[mid]==target){
+                // WE ONLY SAVE VALUE HERE
                 ans = mid;
                 end = mid-1;
             }
             else if(arr[mid]<target){
+                //THIS LINE JUST GIVES DIRECTION LOGIC
                 start = mid+1;
             }
         }
