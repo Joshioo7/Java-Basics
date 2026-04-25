@@ -11,6 +11,8 @@ public class TwoNumbersSumToTarget {
 
             if (sum == target) {
                 return true;
+                //To increase sum → move start
+                // To decrease sum → move end
             } else if (sum < target) {
                 start++;
             } else {
